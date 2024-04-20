@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: dosare_raw
+    schema: public
+    tags: ["dosare_raw"]
+    tables:
+      - name: dosare
+      - name: dosare_caiatac
+      - name: dosare_februarie_2024
+      - name: dosare_februarie_2024_caiatac
+      - name: dosare_februarie_2024_parti
+      - name: dosare_ianuarie_2024
+      - name: dosare_ianuarie_2024_caiatac
+      - name: dosare_ianuarie_2024_parti
+      - name: dosare_martie_2024
+      - name: dosare_martie_2024_caiatac
+      - name: dosare_martie_2024_parti
+      - name: dosare_parti
