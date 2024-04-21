@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  - name: stg_dosare
+    description: Informații despre dosarele din baza de date a instanțelor judecătorești
+    columns:
+      - name: obiect
+        description: Obiectul judecății, acuzațiile
+        tests:
+          - not_null
+      - name: data_initiala
+        description: Data de înregistrare a dosarului
+      - name: data
+        description: Data ultimei modificări
+      - name: numar
+        description: Numărul dosarului
+      - name: stadiu_procesual
+      - name: categorie_caz
+      - name: departament
+      - name: stadiul_procesual_combinat
+
+  - name: stg_dosare_parti
+    description: Lista de părți din dosar, Numele părții din dosar
+    columns:
+      - name: nume
+        description: Numele părții din dosar
+        tests:
+          - not_null
+      - name: calitate_parte
+        description: Calitatea părții din dosar
+        tests:
+          - not_null
+      - name: numar
+        description: Numar dosar.
+        tests:
+          - not_null
+
+  - name: stg_dosare_sedinte
+    description: Informații despre dosarele din baza de date a instanțelor judecătorești
+    columns:
+      - name: data
+        description: Data sedintei.
+        tests:
+          - not_null
+      - name: ora
+        description: Ora sedintei.
+      - name: solutie
+        description: Solutia sedintei.
+      - name: numar
+        description: Numărul dosarului.
+      - name: numar_document
+        description: Numarul documentului.

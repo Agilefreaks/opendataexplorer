@@ -1,0 +1,4 @@
+packages:
+- package: dbt-labs/snowplow
+  version: 0.7.0
+sha1_hash: 323f94d0dec5de9ee4f047a67f49c4a5f9e6230c
