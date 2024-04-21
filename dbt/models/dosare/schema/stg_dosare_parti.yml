@@ -4,12 +4,16 @@ models:
   - name: stg_dosare_parti
     description: Lista de părți din dosar, Numele părții din dosar
     columns:
-      - name: data
-        description: Data de înregistrare a dosarului
-        tests:
-          - not_null
       - name: nume
         description: Numele părții din dosar
+        tests:
+          - not_null
+      - name: calitate_parte
+        description: Calitatea părții din dosar
+        tests:
+          - not_null
+      - name: numar
+        description: Numar dosar.
         tests:
           - not_null
 

@@ -8,12 +8,13 @@ models:
         description: Obiectul judecății, acuzațiile
         tests:
           - not_null
-      - name: datainitiala
+      - name: data_initiala
         description: Data de înregistrare a dosarului
       - name: data
         description: Data ultimei modificări
-      - name: parti
-        description: Numele părții din dosar
       - name: numar
         description: Numărul dosarului
-
+      - name: stadiu_procesual
+      - name: categorie_caz
+      - name: departament
+      - name: stadiul_procesual_combinat
