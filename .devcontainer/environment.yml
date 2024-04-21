@@ -5,3 +5,7 @@ dependencies:
  - python=3.12.0
  - openai
  - python-dotenv
+ - pyyaml
+ - pprint
+ - scikit-learn
+

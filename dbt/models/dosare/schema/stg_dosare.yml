@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_dosare
-    description: Informații despre dosarele din baza de date a instanțelor judecătorești
+    description: Informații despre dosarele instanțelor judecătorești
     columns:
       - name: obiect
         description: Obiectul judecății, acuzațiile

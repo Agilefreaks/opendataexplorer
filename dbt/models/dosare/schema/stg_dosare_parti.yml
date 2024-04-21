@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_dosare_parti
-    description: Lista de părți din dosar, Numele părții din dosar
+    description: Informații despre părțiile implicate din dosarele instanțelor judecătorești
     columns:
       - name: data
         description: Data de înregistrare a dosarului
