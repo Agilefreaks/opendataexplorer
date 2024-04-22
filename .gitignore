@@ -162,3 +162,6 @@ cython_debug/
 node_modules/
 
 .DS_Store
+
+# postgres connection details
+dbt/profiles.yml
