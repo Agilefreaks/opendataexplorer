@@ -2,8 +2,9 @@ with source as (
     select 
         scj.numar as numar,
         scj.numarvechi as numar_vechi,
+        coalesce(scj.numar, scj.numarvechi) as numar_1,
         scj.obiect as obiect,
-        scj.datainitiala as data_initiala,
+        to_date(scj.datainitiala, 'YYYY-MM-DD') as data_initiala,
         stadiuprocesual as stadiu_procesual,
         categoriecaz as categorie_caz,
         stadiulprocesualcombinat as stadiul_procesual_combinat,
@@ -13,8 +14,9 @@ with source as (
     select
         numar,
         numar_vechi,
+        coalesce(numar, numar_vechi) as numar_1,
         obiect,
-        data_initial as data_initiala,
+        to_date(data_initial, 'YYYY-MM-DD') as data_initiala,
         null as stadiu_procesual,
         null as categorie_caz,
         null as stadiul_procesual_combinat,
@@ -24,3 +26,5 @@ with source as (
 
 select distinct *
 from source
+
+

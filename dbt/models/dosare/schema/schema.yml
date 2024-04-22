@@ -30,7 +30,7 @@ models:
         description: Calitatea părții din dosar
         tests:
           - not_null
-      - name: numar
+      - name: numar_1
         description: Numar dosar.
         tests:
           - not_null
