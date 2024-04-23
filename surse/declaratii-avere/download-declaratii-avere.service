@@ -1,0 +1,13 @@
+[Unit]
+Description=Downloads declaratii de avere since some date until now
+Requires=network.target
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/jurnalisti/declaratii
+User=root
+Type=oneshot
+ExecStart=/opt/jurnalisti/declaratii/download-since.sh
+
+[Install]
+WantedBy=multi-user.target

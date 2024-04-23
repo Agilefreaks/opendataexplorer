@@ -1,0 +1,24 @@
+<td class="null ui-col-0 ui-datatable-first">
+	<span id="form:resultsTable:0:numeCell">NUME PRENUME</span>
+</td>
+<td class="null ui-col-1 ui-datatable-first">
+	<span id="form:resultsTable:0:institutieCell">INSTITUTIE</span>
+</td>
+<td class="null ui-col-2 ui-datatable-first">
+	<span id="form:resultsTable:0:functieCell">FUNCTIE</span>
+</td>
+<td class="null ui-col-3 ui-datatable-first">
+	<span id="form:resultsTable:0:localitateCell">LOCALITATE</span>
+</td>
+<td class="null ui-col-4 ui-datatable-first">
+	<span id="form:resultsTable:0:judetCell">JUDET</span>
+</td>
+<td class="null ui-col-5 ui-datatable-first">
+	<span id="form:resultsTable:0:dataCompletareCell">DATA COMPLETARE</span>
+</td>
+<td class="null ui-col-6 ui-datatable-first">
+	<span id="form:resultsTable:0:tipDeclaratieCell">TIP DECLARATIE</span>
+</td>
+<td class="null ui-col-7 ui-datatable-first">
+	<a href="/DownloadServlet?fileName=file_name.pdf&amp;uniqueIdentifier=some_unique_string_required_for_download" target="_self">Vezi document</a>
+</td>
