@@ -1,0 +1,12 @@
+opendataexplorer:
+  outputs:
+    dev:
+      dbname: db_name
+      host: hostname
+      port: 5432
+      schema: db_schema
+      threads: 1
+      user: "{{ env_var('user_dev') }}"
+      pass: "{{ env_var('pass_dev') }}"
+      type: postgres
+  target: dev

@@ -1,6 +1,6 @@
 with source as (
     select 
-        data,
+        to_date(data, 'YYYY-MM-DD') as data,
         ora,
         solutie,
         numar_document,
